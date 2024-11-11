@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRUD Form Example</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="task-form">
+    <h2>Task Form</h2>
+    <input type="text" id="taskName" placeholder="Task Name">
+    <input type="hidden" id="taskId">
+    <button id="saveTask">Save Task</button>
+    <button id="resetForm">Reset</button>
+  </div>
+
+  <div class="task-list">
+    <button id="loadTasks">Load Tasks</button>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Task</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="taskTableBody">
+        <!-- Tasks will be loaded here -->
+      </tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>
