@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-list th,
+.task-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.task-form input {
+  padding: 8px;
+  margin-right: 5px;
+}
